@@ -4,4 +4,7 @@ class FizzBuzz:
     def answer(n):
         if n <= 0:
             raise ValueError
-        return 'Fizz'
+        if n % 3 == 0:
+            return 'Fizz'
+        elif n % 5 == 0:
+            return 'Buzz'
