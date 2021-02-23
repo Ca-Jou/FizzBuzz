@@ -1,4 +1,5 @@
 import unittest
+from FizzBuzz import FizzBuzz
 
 class FizzBuzzTest(unittest.TestCase):
 
