@@ -10,3 +10,4 @@ class FizzBuzz:
             return 'Fizz'
         elif n % 5 == 0:
             return 'Buzz'
+

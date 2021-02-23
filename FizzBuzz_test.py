@@ -26,3 +26,8 @@ class FizzBuzzTest(unittest.TestCase):
         actual = FizzBuzz.answer(15)
         expected = 'FizzBuzz'
         self.assertEqual(expected, actual, 'Should be FizzBuzz, GROSSE POOOOOOOMPE !!!')
+
+    def test_should_be_n_in_other_case(self):
+        actual = FizzBuzz.answer(8)
+        expected = 8
+        self.assertEqual(expected, actual, 'Should be 8, GROOOSSE POOOOOOMPE!!')
