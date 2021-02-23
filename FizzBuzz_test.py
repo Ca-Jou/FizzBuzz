@@ -21,3 +21,8 @@ class FizzBuzzTest(unittest.TestCase):
         actual = FizzBuzz.answer(10)
         expected = 'Buzz'
         self.assertEqual(expected, actual, 'Should be Buzz, GROSSE POMPE !')
+
+    def test_should_be_fizzbuzz_when_3_and_5_is_multiple(self):
+        actual = FizzBuzz.answer(15)
+        expected = 'FizzBuzz'
+        self.assertEqual(expected, actual, 'Should be FizzBuzz, GROSSE POOOOOOOMPE !!!')
