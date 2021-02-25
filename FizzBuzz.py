@@ -15,4 +15,8 @@ class FizzBuzz:
 
     @staticmethod
     def check_input(n):
-        return True
+        if isinstance(n, int):
+            return True
+        else:
+            print("Ce n'est pas un entier, banane!")
+            return False
