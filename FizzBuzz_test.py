@@ -27,3 +27,7 @@ class FizzBuzzTest(unittest.TestCase):
         actual = FizzBuzz.answer(8)
         expected = 8
         self.assertEqual(expected, actual, 'Should be 8!')
+
+    def test_should_return_true_when_int(self):
+        actual = FizzBuzz.check_input(8)
+        self.assertTrue(actual, 'Should be True')
