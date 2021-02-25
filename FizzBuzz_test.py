@@ -31,3 +31,7 @@ class FizzBuzzTest(unittest.TestCase):
     def test_should_return_true_when_int(self):
         actual = FizzBuzz.check_input(8)
         self.assertTrue(actual, 'Should be True')
+
+    def test_should_return_false_in_other_cases(self):
+        actual = FizzBuzz.check_input('toto')
+        self.assertFalse(actual, 'Should be False')
