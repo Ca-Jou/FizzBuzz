@@ -12,3 +12,7 @@ class FizzBuzz:
             return 'Buzz'
         else:
             return n
+
+    @staticmethod
+    def check_input(n):
+        return True
